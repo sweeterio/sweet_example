@@ -4,11 +4,11 @@
 
 ### 1、确认系统要求
 
-请确定你要安装的系统满足要求：
+请确认你要安装的系统是否满足要求：
 
-系统：Windows 10/Windows Server 2016
-Python： 3.9
-网络：联网
+- 系统：Windows 10/Windows Server 2016
+- Python： 3.9
+- 网络：联网
 
 ### 2、反馈主机信息
 
@@ -20,9 +20,9 @@ pip install pyarmor
 ```
 pyarmor hdinfo
 ```
-把打印信息复制发送给客服，耐心等待...
+复制打印信息发送给客服，然后耐心等待...
 
-### 3、licnse 文件
+### 3、存放 licnse 文件
 
 1. 收到客服的 license.lic 文件，放在本目录下
 2. （可选）把本目录下的 pytransform.pyd 文件剪切到 ...\Python39\Lib\site-packages\ 目录
