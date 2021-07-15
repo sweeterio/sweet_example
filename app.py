@@ -11,7 +11,6 @@ app = Starlette()  #debug=True
 app.mount('/report', StaticFiles(directory='report'))
 
 
-
 async def suite(data):
     sweet = Sweet()
     sweet.run(data)
@@ -21,10 +20,6 @@ async def suite(data):
 @app.route('/')
 async def homepage(request):
     return FileResponse('index.html')
-
-# @app.route('/')
-# async def homepage(request):
-#     return JSONResponse({'Sweet agent': '0.1'})
 
 
 @app.route('/suite', methods=['POST'])
